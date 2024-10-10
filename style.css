@@ -1,0 +1,55 @@
+body {
+
+  margin: 0px;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #4CAF50;
+}
+
+.logo img {
+  border: 50px;
+  width: 1204px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #f1f1f1;
+}
+
+.login a {
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.login a:hover {
+  background-color: #555;
+}
